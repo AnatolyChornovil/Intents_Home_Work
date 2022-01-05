@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intents_Home_Work</string>
+
+    <string name="open_gallery">open gallery</string>
+    <string name="open_camera">open camera</string>
+    <string name="name">Name</string>
+    <string name="country">Country</string>
+
+
+</resources>

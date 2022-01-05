@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverActivity">
+
+    <TextView
+        android:id="@+id/country_1"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Zurumbia"
+        android:textSize="18dp"
+        android:onClick="onView1Click"
+        android:paddingTop="2dp"
+        android:textColor="@color/black"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        app:drawableEndCompat="@drawable/flag1"
+
+
+        />
+
+    <TextView
+        android:id="@+id/country_2"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Balantras"
+        android:textSize="18dp"
+        android:onClick="onView2Click"
+        android:paddingTop="2dp"
+        android:textColor="@color/black"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/country_1"
+        android:layout_marginTop="20dp"
+        app:drawableEndCompat="@drawable/flag2"
+        />
+
+    <TextView
+        android:id="@+id/country_3"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Honduras"
+        android:textSize="18dp"
+        android:onClick="onView3Click"
+        android:paddingTop="2dp"
+        android:textColor="@color/black"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/country_2"
+        android:layout_marginTop="20dp"
+        app:drawableEndCompat="@drawable/flag3"
+        />
+
+    <TextView
+        android:id="@+id/country_4"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Dudustan"
+        android:textSize="18dp"
+        android:onClick="onView4Click"
+        android:paddingTop="2dp"
+        android:textColor="@color/black"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/country_3"
+        android:layout_marginTop="20dp"
+        app:drawableEndCompat="@drawable/flag4"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
