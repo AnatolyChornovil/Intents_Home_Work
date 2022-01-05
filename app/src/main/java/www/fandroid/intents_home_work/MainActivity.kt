@@ -194,3 +194,4 @@ enum class FotoapparatState{
 }
 
 
+// тестовий пушик
